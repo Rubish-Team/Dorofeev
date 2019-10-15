@@ -23,7 +23,7 @@ int main() {
 }
 
 cout << num2;
-**
+
 
   return 0;
 }
