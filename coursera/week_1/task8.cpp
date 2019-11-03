@@ -11,17 +11,19 @@
 // Если вам не удаётся сдать задачу, вы можете воспользоваться подсказкой. Но сначала попробуйте решить её сами :)
 
 #include <iostream>
-#include <vector>
 using namespace std;
+int main()
+{
+    int a, b;
+    cin >> a >> b;
+    while(a!=b)
+    {
+        if(b > a)
+            b = b - a;
+        else
+            a = a - b;
+    }
+    cout << a;
 
-int main () {
-  int a, n, c;
-  a = 100000000000;
-  cin >> a >> n;
-
-  for (int i = 0; i <= a; ++i){
-    if (a / )
-  }
-
-  return 0;
+    return 0;
 }
